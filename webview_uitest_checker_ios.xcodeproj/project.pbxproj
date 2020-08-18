@@ -15,6 +15,8 @@
 		843B7A3624EC34AE00E3C546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843B7A3424EC34AE00E3C546 /* LaunchScreen.storyboard */; };
 		843B7A4124EC34AE00E3C546 /* webview_uitest_checker_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B7A4024EC34AE00E3C546 /* webview_uitest_checker_iosTests.swift */; };
 		843B7A4C24EC34AE00E3C546 /* webview_uitest_checker_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B7A4B24EC34AE00E3C546 /* webview_uitest_checker_iosUITests.swift */; };
+		843B7A5A24EC393F00E3C546 /* WebViewSource.html in Resources */ = {isa = PBXBuildFile; fileRef = 843B7A5924EC393F00E3C546 /* WebViewSource.html */; };
+		843B7A5C24EC407700E3C546 /* css.css in Resources */ = {isa = PBXBuildFile; fileRef = 843B7A5B24EC407700E3C546 /* css.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		843B7A4724EC34AE00E3C546 /* webview_uitest_checker_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webview_uitest_checker_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B7A4B24EC34AE00E3C546 /* webview_uitest_checker_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webview_uitest_checker_iosUITests.swift; sourceTree = "<group>"; };
 		843B7A4D24EC34AE00E3C546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843B7A5924EC393F00E3C546 /* WebViewSource.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = WebViewSource.html; sourceTree = "<group>"; };
+		843B7A5B24EC407700E3C546 /* css.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = css.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				843B7A3224EC34AE00E3C546 /* Assets.xcassets */,
 				843B7A3424EC34AE00E3C546 /* LaunchScreen.storyboard */,
 				843B7A3724EC34AE00E3C546 /* Info.plist */,
+				843B7A5924EC393F00E3C546 /* WebViewSource.html */,
+				843B7A5B24EC407700E3C546 /* css.css */,
 			);
 			path = webview_uitest_checker_ios;
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843B7A5C24EC407700E3C546 /* css.css in Resources */,
 				843B7A3624EC34AE00E3C546 /* LaunchScreen.storyboard in Resources */,
 				843B7A3324EC34AE00E3C546 /* Assets.xcassets in Resources */,
 				843B7A3124EC34AD00E3C546 /* Main.storyboard in Resources */,
+				843B7A5A24EC393F00E3C546 /* WebViewSource.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
