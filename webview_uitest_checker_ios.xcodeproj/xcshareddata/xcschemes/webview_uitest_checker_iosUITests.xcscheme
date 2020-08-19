@@ -34,6 +34,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "843B7A2524EC34AD00E3C546"
+            BuildableName = "webview_uitest_checker_ios.app"
+            BlueprintName = "webview_uitest_checker_ios"
+            ReferencedContainer = "container:webview_uitest_checker_ios.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
