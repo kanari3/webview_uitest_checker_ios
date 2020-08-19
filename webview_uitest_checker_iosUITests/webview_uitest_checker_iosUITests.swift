@@ -10,18 +10,22 @@ import XCTest
 
 class webview_uitest_checker_iosUITests: XCTestCase {
 
+    let app = XCUIApplication()
+    
     override func setUp() {
         continueAfterFailure = false
+        app.launch()
     }
 
-    func testExample() {
-        let app = XCUIApplication()
-        app.launch()
-        
-        
+    func testTextFields() {
+
         let textFieldsCount = app.webViews.textFields.count
         XCTAssertEqual(2, textFieldsCount)
         
+    }
+
+    func testButtons() {
+                
         let buttonsCount = app.webViews.buttons.count
         XCTAssertEqual(2, buttonsCount)
         
