@@ -21,14 +21,14 @@ class webview_uitest_checker_iosUITests: XCTestCase {
 
         let textFieldsCount = app.webViews.textFields.count
         XCTAssertEqual(2, textFieldsCount)
-        
+
     }
 
     func testButtons() {
-                
+
         let buttonsCount = app.webViews.buttons.count
         XCTAssertEqual(2, buttonsCount)
-        
+
     }
 
     
