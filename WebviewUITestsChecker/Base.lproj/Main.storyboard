@@ -10,12 +10,12 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="webview_uitest_checker_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebviewUITestsChecker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMr-N6-LOM">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BnS-vI-F1e">
                                 <rect key="frame" x="10" y="54" width="394" height="798"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -26,20 +26,20 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EMr-N6-LOM" secondAttribute="trailing" constant="10" id="AGK-J8-t2Y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EMr-N6-LOM" secondAttribute="bottom" constant="10" id="DAy-Ot-v1D"/>
-                            <constraint firstItem="EMr-N6-LOM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="rsv-GE-pfW"/>
-                            <constraint firstItem="EMr-N6-LOM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wMN-5v-QAh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BnS-vI-F1e" secondAttribute="trailing" constant="10" id="E3l-c1-cxB"/>
+                            <constraint firstItem="BnS-vI-F1e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="FFY-Zh-KZh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BnS-vI-F1e" secondAttribute="bottom" constant="10" id="LGr-f7-kfF"/>
+                            <constraint firstItem="BnS-vI-F1e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="n9l-0L-ihE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="EMr-N6-LOM" id="js9-fg-ZpK"/>
+                        <outlet property="webView" destination="BnS-vI-F1e" id="Yum-NM-SHt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="139"/>
+            <point key="canvasLocation" x="132" y="139"/>
         </scene>
     </scenes>
 </document>

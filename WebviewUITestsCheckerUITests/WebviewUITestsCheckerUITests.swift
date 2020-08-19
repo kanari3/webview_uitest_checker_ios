@@ -11,7 +11,7 @@ import XCTest
 class webview_uitest_checker_iosUITests: XCTestCase {
 
     let app = XCUIApplication()
-    
+
     override func setUp() {
         continueAfterFailure = false
         app.launch()
@@ -31,5 +31,5 @@ class webview_uitest_checker_iosUITests: XCTestCase {
 
     }
 
-    
+
 }

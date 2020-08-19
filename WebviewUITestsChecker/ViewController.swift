@@ -11,17 +11,17 @@ import WebKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var webView: WKWebView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-                 
+
         if let html = Bundle.main.path(forResource: "WebViewSource", ofType: "html") {
             let url = URL(fileURLWithPath: html)
             let request = URLRequest(url: url)
             webView.load(request)
         }
-        
-        
+
+
     }
 
 
