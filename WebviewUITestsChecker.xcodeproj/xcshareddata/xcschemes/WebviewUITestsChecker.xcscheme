@@ -38,16 +38,6 @@
                ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84E42C9724ED6D880060FA64"
-               BuildableName = "WebviewUITestsCheckerUITests.xctest"
-               BlueprintName = "WebviewUITestsCheckerUITests"
-               ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
