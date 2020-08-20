@@ -18,17 +18,24 @@ class WebviewUITestsCheckerUITests: XCTestCase {
     }
 
     func testTextFields() {
-
-        let textFieldsCount = app.webViews.textFields.count
-        XCTAssertEqual(2, textFieldsCount)
-
+        let textFields = app.webViews.textFields.count
+        XCTAssertEqual(2, textFields)
     }
 
     func testButtons() {
-
-        let buttonsCount = app.webViews.buttons.count
-        XCTAssertEqual(2, buttonsCount)
-
+        let buttons = app.webViews.buttons.count
+        XCTAssertEqual(2, buttons)
     }
-    
+
+    func testStaticTexts() {
+        let staticTexts = app.webViews.staticTexts.count
+        XCTAssertEqual(3, staticTexts)
+    }
+
+    func testTextView() {
+        let textViews = app.webViews.textViews.count
+        XCTAssertEqual(2, textViews)
+    }
+
+
 }
