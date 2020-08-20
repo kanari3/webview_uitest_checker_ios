@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  WebviewUITestsChecker
 //
-//  Created by admin on 2020/08/20.
-//  Copyright © 2020 kanari3. All rights reserved.
+//  Created by kanari3 on 2020/08/20.
 //
 
 import UIKit

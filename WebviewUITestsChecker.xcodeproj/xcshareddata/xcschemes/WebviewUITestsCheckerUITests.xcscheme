@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1200"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,7 +16,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84ACB30724EE733D0029BFE5"
+               BlueprintIdentifier = "849FFB4524EE755700832A31"
                BuildableName = "WebviewUITestsCheckerUITests.xctest"
                BlueprintName = "WebviewUITestsCheckerUITests"
                ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
