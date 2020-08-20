@@ -540,7 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = D6Y74KJ2UA;
 				INFOPLIST_FILE = WebviewUITestsCheckerUITests/Info.plist;
@@ -551,7 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kanari3.WebviewUITestsCheckerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Webview UITests Checker UITests adhoc";
+				PROVISIONING_PROFILE_SPECIFIER = "Webview UITests Checker UITests develop";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
