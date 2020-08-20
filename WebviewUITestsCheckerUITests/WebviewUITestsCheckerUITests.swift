@@ -28,8 +28,8 @@ class WebviewUITestsCheckerUITests: XCTestCase {
     }
 
     func testStaticTexts() {
-        let staticTexts = app.webViews.staticTexts.count
-        XCTAssertEqual(3, staticTexts)
+        let staticTexts = app.webViews.staticTexts["StaticText"]
+        XCTAssertTrue(staticTexts.exists)
     }
 
     func testTextView() {
