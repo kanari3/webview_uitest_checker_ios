@@ -2,13 +2,12 @@
 //  SceneDelegate.swift
 //  WebviewUITestsChecker
 //
-//  Created by kanari3 on 2020/08/19.
+//  Created by admin on 2020/08/20.
 //  Copyright © 2020 kanari3. All rights reserved.
 //
 
 import UIKit
 
-@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
