@@ -2,7 +2,7 @@
 //  WebviewUITestsCheckerTests.swift
 //  WebviewUITestsCheckerTests
 //
-//  Created by kanari3 on 2020/08/19.
+//  Created by admin on 2020/08/20.
 //  Copyright © 2020 kanari3. All rights reserved.
 //
 
@@ -24,5 +24,11 @@ class WebviewUITestsCheckerTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testPerformanceExample() throws {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
+        }
+    }
 
 }

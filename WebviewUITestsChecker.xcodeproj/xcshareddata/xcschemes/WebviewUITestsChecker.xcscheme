@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84E42C7624ED6D870060FA64"
+               BlueprintIdentifier = "847BB52E24EE65AD00FDD494"
                BuildableName = "WebviewUITestsChecker.app"
                BlueprintName = "WebviewUITestsChecker"
                ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84E42C8C24ED6D880060FA64"
+               BlueprintIdentifier = "847BB54424EE65AE00FDD494"
                BuildableName = "WebviewUITestsCheckerTests.xctest"
                BlueprintName = "WebviewUITestsCheckerTests"
                ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
@@ -54,7 +54,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84E42C7624ED6D870060FA64"
+            BlueprintIdentifier = "847BB52E24EE65AD00FDD494"
             BuildableName = "WebviewUITestsChecker.app"
             BlueprintName = "WebviewUITestsChecker"
             ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
@@ -71,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84E42C7624ED6D870060FA64"
+            BlueprintIdentifier = "847BB52E24EE65AD00FDD494"
             BuildableName = "WebviewUITestsChecker.app"
             BlueprintName = "WebviewUITestsChecker"
             ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
