@@ -1,14 +1,14 @@
 //
-//  webview_uitest_checker_iosUITests.swift
-//  webview_uitest_checker_iosUITests
+//  WebviewUITestsCheckerUITests.swift
+//  WebviewUITestsCheckerUITests
 //
 //  Created by kanari3 on 2020/08/19.
-//  Copyright © 2020 kanari3. All rights reserved.
+//  Copyright © 2020年 kanari3. All rights reserved.
 //
 
 import XCTest
 
-class webview_uitest_checker_iosUITests: XCTestCase {
+class WebviewUITestsCheckerUITests: XCTestCase {
 
     let app = XCUIApplication()
 
@@ -30,6 +30,5 @@ class webview_uitest_checker_iosUITests: XCTestCase {
         XCTAssertEqual(2, buttonsCount)
 
     }
-
-
+    
 }
