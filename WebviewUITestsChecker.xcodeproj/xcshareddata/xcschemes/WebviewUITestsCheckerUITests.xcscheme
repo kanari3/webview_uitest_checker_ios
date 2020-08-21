@@ -21,6 +21,17 @@
                BlueprintName = "WebviewUITestsCheckerUITests"
                ReferencedContainer = "container:WebviewUITestsChecker.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "WebviewUITestsCheckerUITests/testButtons()">
+               </Test>
+               <Test
+                  Identifier = "WebviewUITestsCheckerUITests/testTextFields()">
+               </Test>
+               <Test
+                  Identifier = "WebviewUITestsCheckerUITests/testTextView()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
