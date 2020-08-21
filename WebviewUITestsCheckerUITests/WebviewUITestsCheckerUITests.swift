@@ -27,15 +27,32 @@ class WebviewUITestsCheckerUITests: XCTestCase {
         XCTAssertEqual(2, buttons)
     }
 
-    func testStaticTexts() {
-        let staticTexts = app.webViews.staticTexts["StaticText"]
-        XCTAssertTrue(staticTexts.exists)
-    }
-
     func testTextView() {
         let textViews = app.webViews.textViews.count
         XCTAssertEqual(2, textViews)
     }
+
+
+    func testTextFieldsWithWait() {
+        let textFields = app.webViews.textFields.element(boundBy: 1).waitForExistence(timeout: 5)
+        XCTAssertTrue(textFields)
+    }
+
+    func testButtonsWithWait() {
+        let buttons = app.webViews.buttons.element(boundBy: 1).waitForExistence(timeout: 5)
+        XCTAssertTrue(buttons)
+    }
+
+    func testStaticTextsWithWait() {
+        let staticTexts = app.webViews.staticTexts["StaticText"].waitForExistence(timeout: 5)
+        XCTAssertTrue(staticTexts)
+    }
+
+    func testTextViewWithWait() {
+        let textViews = app.webViews.textViews.element(boundBy: 1).waitForExistence(timeout: 5)
+        XCTAssertTrue(textViews)
+    }
+
 
 
 }
