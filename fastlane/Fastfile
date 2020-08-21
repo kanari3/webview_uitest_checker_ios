@@ -1,0 +1,13 @@
+default_platform :ios
+
+platform :ios do
+
+  lane :ui_test do
+    scan(
+      scheme: "WebviewUITestsCheckerUITests",
+      result_bundle: true
+    )
+    coverage
+  end
+end
+
